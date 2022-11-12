@@ -1,0 +1,23 @@
+.empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    padding: 4rem 1.5rem;
+    border-radius: 8px;
+    border-top: 1px solid var(--gray-400);
+}
+
+.image {
+    width: 56px;
+    height: 56px;
+}
+
+.description {
+    line-height: 140%;
+}
+
+.title {
+    font-weight: bold;
+}

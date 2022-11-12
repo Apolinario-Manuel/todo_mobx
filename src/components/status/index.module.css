@@ -1,0 +1,30 @@
+.status {
+    margin: 64px auto 24px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tag {
+    display: flex;
+    gap: 8px;
+}
+
+.count {
+    background: var(--gray-400);
+    padding: 0.125rem 0.5rem;
+    border-radius: 999px;
+    color: var(--gray-200);
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+
+.labelCreated {
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.labelCompleted {
+    font-weight: bold;
+    color: var(--purple);
+}
+

@@ -1,0 +1,35 @@
+.creator {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.creator input {
+    width: 100%;
+    background: var(--gray-500);
+    border: 1px solid var(--gray-700);
+    color: var(--gray-100);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.creator button {
+    background: var(--blue-dark);
+    border-radius: 8px;
+    border: 0;
+    color: var(--white);
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.creator button:not(:disabled):hover {
+    background: var(--blue);
+}
+
+.creator button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
