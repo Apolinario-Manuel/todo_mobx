@@ -1,7 +1,7 @@
 import clipBoard from '../../assets/clipboard.svg';
 import styles from './index.module.css';
 
-export const TaskEmpty = () => (
+export const EmptyAlert = () => (
     <div className={styles.empty} >
         <img src={clipBoard}  alt='clipboard' className={styles.image} />
 

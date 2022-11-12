@@ -3,7 +3,7 @@ import { TaskCreator } from './components/task_creator';
 import './global.css';
 import styles from './App.module.css';
 import { Status } from './components/status';
-import { TaskEmpty } from './components/task_empty';
+import { EmptyAlert } from './components/empty_alert';
 import { TaskItem } from './components/task_item';
 import { values } from 'mobx';
 import { observer } from 'mobx-react-lite';
@@ -30,7 +30,7 @@ const App = observer(() => {
                 todo={todo} 
               />
             )
-            : <TaskEmpty />
+            : <EmptyAlert />
         }  
       </div>
     </div>
