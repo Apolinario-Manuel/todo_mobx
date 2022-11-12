@@ -9,13 +9,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React](https://reactjs.org)
 - [MST](https://mobx-state-tree.js.org/intro/welcome)
 
-
-## 💻 Projeto
-
-TODO é um projecto que tem como objectivo te ajudar a gerenciar as suas
-tarefas de uma maneira fácil, inspirado num challenge esse projecto tem como
-objectivo demonstrar o uso do Drag and Drop no React. 
-
 ## Instalação 
 
 Para executar esse repositório baixe-o para sua maquina ou faça um `Git Clone`
